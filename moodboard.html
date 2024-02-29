@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="CSS/style.css" type="text/css">
+        <link rel="stylesheet" href="CSS/portfolio.css" type="text/css">
+    </head>
+
+    <body>
+        <!--main content of the landing page-->
+        <div class="main-content">
+            <div class="row">
+                <div class="col-6 col-s-7">
+                    <img class="image" src="img/mb-cover.png" alt="">
+                </div>
+                <div class="col-6 col-s-5">
+                    <h3>2024</h3>
+                    <h1>Moodboard Social App</h1>
+                    <h2>McHacks, personal project</h2>
+                    <br><br>
+                    <h3>
+                        <b>Role</b> → Graphic design
+                        <br><br>
+                        <b>Deliverables</b> → Application design, visual identity
+                    </h3>
+                    <br><br>
+                    <p>
+                        Moodboard was created as a "demo project", intended for participants
+                        at McGill's annual hackathon (McHacks) to learn, through an innteractive 
+                        workshop, an introduction to UI/UX design and advanced Figma tools for 
+                        mockups and project demos like prototyping. 
+                        So here is Moodboard, a social app for designers and artists looking to 
+                        share their work and connect with other artists. 
+                        *I do not own the rights to the example works in the design* 
+                    </p>
+                </div>
+            </div>
+            <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+                <video style="height: 80vh; margin: 20px" autoplay muted loop>
+                    <source src="img/video.mp4" type="video/mp4">
+                </video>
+                <img class="image" src="img/visual.png" alt="" style="height: 80vh; width: auto; margin: 20px">
+            </div>
+            <div class="row" style="display: flex; flex-wrap: wrap; justify-content: center;">
+                <img class="image" src="img/mb1.png" alt="" style="max-width: 22vw; margin: 1vw">
+                <img class="image" src="img/mb2.png" alt="" style="max-width: 22vw; margin: 1vw">
+                <img class="image" src="img/mb3.png" alt="" style="max-width: 22vw; margin: 1vw">
+                <img class="image" src="img/mb4.png" alt="" style="max-width: 22vw; margin: 1vw">
+            </div>
+        </div>
+
+        <!--footer-->
+        <div class="navbar-foot row">
+            <div class="col-6 col-s-6" style="text-align: center;">
+                <a href="https://www.instagram.com/jsyillustrations/" target="_blank">Instagram</a>
+            </div>
+            <div class="col-6 col-s-6" style="text-align: center;">
+                <a href="https://www.linkedin.com/in/judy-yun/" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+
+        <!--header-->
+        <div class="navbar-head">
+            <div class="col-4 col-s-4 col-ss-6" style="text-align: left;">
+                <a href="index.html" onclick=""><h3>jsyillustrations</h3></a>
+            </div>
+
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+            </label>
+            <ul class="menu">
+                <div class="menu-div"><li><a href="about.html" onclick="">about</a></li></div>
+                <div class="menu-div"><li><a href="work.html" onclick="">work</a></li></div>
+                <div class="menu-div"><li><a href="contact.html">contact</a></li></div>
+            </ul>
+        </div>
+    </body>
+</html>

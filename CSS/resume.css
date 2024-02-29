@@ -1,0 +1,51 @@
+.resume {
+    align-items: center;
+    font-size:calc(10px + 0.8vw);
+    text-align: center;
+}
+
+.education {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 45px;
+    padding: 5px 3vw;
+    margin: 10px;
+    background-image: url(../img/resume-education.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 45px;
+}
+
+.skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FBEAD6;
+    min-height: 45px;
+    padding: 5px 3vw;
+    margin: 10px;
+    background-image: url(../img/resume-skills.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 45px;
+}
+
+.experience1 {
+    padding: 5px 2vw;
+    margin: 10px;
+    text-align: left;
+    background-image: url(../img/resume-exp1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.experience2 {
+    padding: 5px 2vw;
+    margin: 10px;
+    text-align: left;
+    color: #FBEAD6;
+    background-image: url(../img/resume-exp2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
